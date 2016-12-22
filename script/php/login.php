@@ -17,7 +17,7 @@ if(count($risultati) == 1 && $username == $risultati[0]['username'] && $password
 else
     echo "utente non presente";
 
-$newURL = "/chefcalculator2";
+$newURL = "/chefcost";
 header('Location: '.$newURL);
 
 ?>
