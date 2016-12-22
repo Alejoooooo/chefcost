@@ -1,6 +1,6 @@
 <?php
     session_start();
     session_destroy();
-    $newURL = "/chefcalculator2";
+    $newURL = "/chefcost";
 header('Location: '.$newURL);
 ?>
