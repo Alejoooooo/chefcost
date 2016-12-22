@@ -17,7 +17,7 @@ if(isset($_SESSION['username'])){
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="'.$root.'"><span>ChefCalculator2</span></a>
+            <a class="navbar-brand" href="'.$root.'"><span>ChefCost</span></a>
           </div>
           <div class="collapse navbar-collapse" id="navbar-ex-collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -52,7 +52,7 @@ else {
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="'.$root.'"><span>ChefCalculator2</span></a>
+            <a class="navbar-brand" href="'.$root.'"><span>ChefCost</span></a>
           </div>
           <div class="collapse navbar-collapse" id="navbar-ex-collapse">
             <ul class="nav navbar-nav navbar-right">
