@@ -4,7 +4,7 @@
 <?php
 
 session_start();
-$root = "/chefcalculator2";
+$root = "/chefcost";
 
 
 if(isset($_SESSION['username'])){
