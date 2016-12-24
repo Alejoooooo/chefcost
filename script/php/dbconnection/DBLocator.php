@@ -25,7 +25,9 @@ class DBLocator {
         try {
             $connection = new PDO("mysql:host=$this->host;dbname=$this->db", $this->user, $this->password);
         } catch (PDOException $e) {
-            echo $e->getMessage();
+            //echo $e->getMessage();
+			echo "ERROR CONNECTION DB";
+			die();
         }
         
         return $connection;
