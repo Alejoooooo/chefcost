@@ -31,7 +31,7 @@ if(isset($_SESSION['username'])){
                 <a href="#">Ricette</a>
               </li>
                 <li>
-                <a href="#">Area utente</a>
+                <a href="areautente.php">Area utente</a>
               </li>
               <li>
                 <a href="'.$root.'/script/php/logout.php">Logout</a>
